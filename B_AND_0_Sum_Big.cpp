@@ -15,15 +15,15 @@ int main() {
 		cin >> n >> k;
 
 		
-		long long ans = 1;
+		long long sol = 1;
 
 		
 		for (int i = 0; i < k; i++) {
-			ans = (ans * n) % MOD;
+			sol = (sol * n) % MOD;
 		}
 
 		
-		cout << ans << "\n";
+		cout << sol << "\n";
 	}
 
 	return 0;
